@@ -6,6 +6,7 @@ first open a terminal, then connect to the Pirbright cluster via SSH
 
 and use the password that was given during the course. Then ask one of the demonstrators for the numeric code to enter.
 
+----------------------
 
 The first time that you connect, a few preparatory steps to work remotely:
 
@@ -37,6 +38,7 @@ This will open you a shell on a computational node.
 
 From now on, please avoid typing "exit" or anything similar. In case you want to get out, just close the window of the terminal.
 
+----------------------
 
 After the first time, you can simply open a terminal again, reconnect via SSH as described above, then type
 
