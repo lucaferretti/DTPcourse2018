@@ -210,7 +210,7 @@ or
 
 > samtools tview SRR830370_smallsubset.bwa.Astephensi.sorted.bam Anopheles-stephensi-Indian_SCAFFOLDS_AsteI2.fa
 
-to explore the data by hand.
+to explore the data by hand. You can move around using arrows on the keyboard; press q to exit.
 
 ----------------------
 
