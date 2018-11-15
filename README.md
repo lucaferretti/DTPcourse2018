@@ -228,7 +228,7 @@ or select fixed differences with the reference
 
 To find the number of fixed differences per gene (including introns), you can use
 
-> bedtools coverage -counts -a Anopheles-gambiae-PEST_BASEFEATURES_AgamP4.10.genes.bed -b SRR830370_smallsubset.GEM.Agambiae.sorted.samtools.filtered.diffs.vcf > genes.SRR830370_smallsubset.GEM.Agambiae.sorted.samtools.filtered.diffs.vcf.counts.txt
+> /usr/bin/bedtools coverage -counts -a Anopheles-gambiae-PEST_BASEFEATURES_AgamP4.10.genes.bed -b SRR830370_smallsubset.GEM.Agambiae.sorted.samtools.filtered.diffs.vcf > genes.SRR830370_smallsubset.GEM.Agambiae.sorted.samtools.filtered.diffs.vcf.counts.txt
 
 and similarly for the number of variants.
 
@@ -310,7 +310,7 @@ If you are interested in visualizing the data as expression profiles on the geno
 
 Bam files can be converted to traces in bedGraph format via commands like
 
-> bedtools genomecov -trackline -trackopts autoscale=on -trackopts graphType=bar -bg -ibam SRR1805322_sub_1.sorted.bam > SRR1805322.bg
+> /usr/bin/bedtools genomecov -trackline -trackopts autoscale=on -trackopts graphType=bar -bg -ibam SRR1805322_sub_1.sorted.bam > SRR1805322.bg
 but the size of the file should be less than 20 Megabytes, e.g.
 
 > head -n 500000 SRR1805322.bg > SRR1805322_partial.bg
