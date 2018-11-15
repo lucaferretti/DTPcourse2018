@@ -265,7 +265,7 @@ Align with GEM (takes about 5 minutes per dataset)
 
 then convert the resulting file to SAM
 
-> zcat SRR1805322_sub_1.map.gz | gem-2-sam -q offset-33 -o SRR1805322_sub_R1.sam -I Anopheles-gambiae-PEST_CHROMOSOMES_AgamP4.gem -l
+> zcat SRR1805322_sub_R1.map.gz | gem-2-sam -q offset-33 -o SRR1805322_sub_R1.sam -I Anopheles-gambiae-PEST_CHROMOSOMES_AgamP4.gem -l
 
 and follow the steps above to generate a sorted, indexed bam file. Then, you could call SNPs from these data as well, if you would like to try.
 
