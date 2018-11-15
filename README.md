@@ -103,7 +103,7 @@ The content and position of the aligned read against the genome can be seen grap
 
 > samtools tview ViralReads.sorted.bam KR108954_1.fasta
 
-where each "." corresponds to a base that is identical to the reference.
+where each "." corresponds to a base that is identical to the reference. Press q or CTRL-c to exit.
 
 Note how noisy the data are!
 
@@ -127,8 +127,7 @@ Then examine the resulting output file containing only variants that passed the 
 
 The final question of this tutorial is:
 
-these sequences belong to a single viral population. However, things are not so easy. Have a look at the frequencies of the variants. How are these frequencies distributed? Can you spot something that looks odd?
-
+these sequences belong to a single viral 'population', or viral swarm/quasispecies. In this context, we expect all sequences to form a 'cloud' of genotypes differing by a few random mutations. However, things are not so easy. Have a look at the frequencies of the variants. How are these frequencies distributed? Can you spot something that looks odd?
 
 ----------------------
 ----------------------
